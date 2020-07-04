@@ -1,0 +1,31 @@
+body {
+  background: #7159C1;
+  color: #FFF;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+ul > li {
+  margin-bottom: 10px;
+  font-size: 23px;
+  font-weight: bold;
+  padding: 10px 10px 15px 10px;
+  text-transform: uppercase;
+  box-shadow: -4px 5px 7px 0px black;
+  width: 480px;
+  height: 55px;
+  text-align: center;
+}
+
+ul > li > button {
+  border: none;
+  background: transparent;
+  color: red;
+  height: 75px;
+  margin-left: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
